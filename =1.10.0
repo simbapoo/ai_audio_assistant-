@@ -1,0 +1,2 @@
+Requirement already satisfied: scipy in /home/jm-4567/miniconda3/envs/ai_audio_assistant/lib/python3.12/site-packages (1.15.2)
+Requirement already satisfied: numpy<2.5,>=1.23.5 in /home/jm-4567/miniconda3/envs/ai_audio_assistant/lib/python3.12/site-packages (from scipy) (1.26.0)

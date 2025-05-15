@@ -1,0 +1,122 @@
+2025-04-27 22:36:01,437 - audio_utils.merger - INFO - Merging 2 files...
+2025-04-27 22:36:01,437 - audio_utils.merger - ERROR - Merging failed: 'str' object has no attribute 'exists'
+2025-04-27 22:42:00,942 - audio_utils.merger - INFO - Merging 2 files...
+2025-04-27 22:42:01,098 - audio_utils.merger - ERROR - Failed to process file /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav: Decoding failed. ffmpeg returned error code: 183
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.0.2-3ubuntu1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14 (Ubuntu 14.2.0-2ubuntu1)
+  configuration: --prefix=/usr --extra-version=3ubuntu1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+[wav @ 0x62d97940f200] invalid start code [187][40][133][188] in RIFF header
+[in#0 @ 0x62d97940ef40] Error opening input: Invalid data found when processing input
+Error opening input file /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav.
+Error opening input files: Invalid data found when processing input
+
+2025-04-27 22:42:01,098 - audio_utils.merger - ERROR - Merging failed: Decoding failed. ffmpeg returned error code: 183
+
+Output from ffmpeg/avlib:
+
+ffmpeg version 7.0.2-3ubuntu1 Copyright (c) 2000-2024 the FFmpeg developers
+  built with gcc 14 (Ubuntu 14.2.0-2ubuntu1)
+  configuration: --prefix=/usr --extra-version=3ubuntu1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --disable-libmfx --disable-omx --enable-gnutls --enable-libaom --enable-libass --enable-libbs2b --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libglslang --enable-libgme --enable-libgsm --enable-libharfbuzz --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-openal --enable-opencl --enable-opengl --disable-sndio --enable-libvpl --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-ladspa --enable-libbluray --enable-libcaca --enable-libdvdnav --enable-libdvdread --enable-libjack --enable-libpulse --enable-librabbitmq --enable-librist --enable-libsrt --enable-libssh --enable-libsvtav1 --enable-libx264 --enable-libzmq --enable-libzvbi --enable-lv2 --enable-sdl2 --enable-libplacebo --enable-librav1e --enable-pocketsphinx --enable-librsvg --enable-libjxl --enable-shared
+  libavutil      59.  8.100 / 59.  8.100
+  libavcodec     61.  3.100 / 61.  3.100
+  libavformat    61.  1.100 / 61.  1.100
+  libavdevice    61.  1.100 / 61.  1.100
+  libavfilter    10.  1.100 / 10.  1.100
+  libswscale      8.  1.100 /  8.  1.100
+  libswresample   5.  1.100 /  5.  1.100
+  libpostproc    58.  1.100 / 58.  1.100
+[wav @ 0x62d97940f200] invalid start code [187][40][133][188] in RIFF header
+[in#0 @ 0x62d97940ef40] Error opening input: Invalid data found when processing input
+Error opening input file /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav.
+Error opening input files: Invalid data found when processing input
+
+2025-04-27 22:50:29,901 - audio_utils.generator - ERROR - Generation failed: Error opening '/home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav': Format not recognised.
+2025-04-27 23:19:59,372 - audio_utils.generator - ERROR - Generation failed: Unknown subtype: 'MP3'
+2025-04-27 23:22:59,626 - audio_utils.generator - INFO - Generating segment 0...
+2025-04-27 23:23:30,396 - audio_utils.generator - INFO - Generating segment 1...
+2025-04-27 23:24:26,070 - audio_utils.generator - INFO - Generating segment 0...
+2025-04-27 23:24:55,046 - audio_utils.generator - INFO - Generating segment 1...
+2025-04-27 23:25:50,414 - audio_utils.generator - INFO - Generating segment 0...
+2025-04-27 23:26:20,634 - audio_utils.generator - INFO - Generating segment 1...
+2025-04-28 01:50:14,135 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 01:52:37,106 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 01:59:41,674 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 02:02:08,243 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 02:06:31,128 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 02:08:54,069 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 13:12:28,033 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 13:16:49,724 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 13:44:59,605 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-28 13:45:06,248 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-28 13:56:31,386 - huggingface_hub.file_download - WARNING - Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+2025-04-28 15:48:19,408 - audio_utils.generator - ERROR - Generation failed: 'Config' object has no attribute 'MAX_NEW_TOKENS'
+2025-04-28 15:49:33,053 - audio_utils.generator - ERROR - Generation failed: 'Config' object has no attribute 'MAX_NEW_TOKENS'
+2025-04-28 15:53:26,606 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 15:56:21,282 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 16:04:42,390 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 16:07:33,749 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 16:10:26,245 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 16:13:10,209 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 16:27:43,727 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 16:30:20,974 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 16:33:06,409 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 16:35:52,486 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 16:47:04,421 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 16:49:39,556 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 16:52:30,250 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 16:55:08,426 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 17:09:27,329 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 17:12:12,432 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 17:15:00,738 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 17:17:48,604 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 17:20:37,215 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_4.wav
+2025-04-28 17:23:29,769 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_5.wav
+2025-04-28 17:26:17,389 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_6.wav
+2025-04-28 17:29:05,361 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_7.wav
+2025-04-28 17:31:52,744 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_8.wav
+2025-04-28 17:34:37,640 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_9.wav
+2025-04-28 17:44:48,666 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 17:47:21,194 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 17:49:55,143 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 17:52:30,766 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 17:55:08,167 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_4.wav
+2025-04-28 17:57:42,830 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_5.wav
+2025-04-28 18:00:16,903 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_6.wav
+2025-04-28 18:02:52,557 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_7.wav
+2025-04-28 18:05:25,279 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_8.wav
+2025-04-28 18:07:47,059 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_9.wav
+2025-04-28 18:10:27,694 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_10.wav
+2025-04-28 18:15:40,623 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 18:18:22,742 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 18:21:09,512 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 18:23:41,016 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 18:40:25,230 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 18:42:54,631 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 18:45:28,238 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
+2025-04-28 18:48:04,952 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_3.wav
+2025-04-28 18:50:39,265 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_4.wav
+2025-04-28 18:53:09,562 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_5.wav
+2025-04-28 18:55:40,491 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_6.wav
+2025-04-28 18:58:12,587 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_7.wav
+2025-04-28 19:00:55,592 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_8.wav
+2025-04-28 19:03:29,063 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_9.wav
+2025-04-28 19:06:07,177 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_10.wav
+2025-04-28 19:08:39,908 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_11.wav
+2025-04-28 19:11:22,076 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_12.wav
+2025-04-28 19:13:47,220 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_13.wav
+2025-04-28 19:16:10,850 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_14.wav
+2025-04-28 19:23:02,853 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 19:27:25,734 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_0.wav
+2025-04-28 19:29:41,930 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_1.wav
+2025-04-28 19:32:03,202 - audio_utils.generator - INFO - Audio segment generated: /home/jm-4567/PycharmProjects/PythonProject/ai_audio_assistant/audio_utils/temp/segment_2.wav
