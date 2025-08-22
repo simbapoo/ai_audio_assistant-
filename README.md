@@ -34,7 +34,7 @@ max_new_tokens=1024 (длинные треки).
 Расслабление — медитативные звуки океана.
 
 
-## Installation
+## Установка и запуск
 1. Clone repository
 2. Install dependencies:
 ```bash
@@ -50,7 +50,7 @@ OPENAI_API_KEY=your_api_key
 streamlit run app.py
 ```
 # Структура проекта
-
+```plaintext 
 ai-audio-assistant/
 │
 ├── audio_utils/
@@ -69,3 +69,26 @@ ai-audio-assistant/
 ├── app.py               # Интерфейс Streamlit
 ├── requirements.txt     # Зависимости
 └── README.md            # Документация
+
+```
+
+
+## Используемые технологии
+
+Streamlit — веб-интерфейс.
+
+GPT-4 — генерация текстовых промптов.
+
+MusicGen (Meta AI) — генерация музыки.
+
+Python (audio processing, crossfade, normalization).
+
+## Пример использования
+
+Выберите шаблон (Фокус, Пробуждение и др.).
+
+Добавьте свои пожелания (например: "электронный трек с атмосферой леса").
+
+Получите готовый трек с плавными переходами.
+
+Скачайте результат в .wav.
